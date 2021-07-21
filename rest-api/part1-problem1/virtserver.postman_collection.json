@@ -1,0 +1,150 @@
+{
+	"info": {
+		"_postman_id": "87b2826c-ead5-40a0-96ad-6d091c8a6575",
+		"name": "virtserver",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "req token",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://virtserver.swaggerhub.com/sepulsa/RentABook-API/1.0.0/token?client_id=adc&client_secret=acd",
+					"protocol": "https",
+					"host": [
+						"virtserver",
+						"swaggerhub",
+						"com"
+					],
+					"path": [
+						"sepulsa",
+						"RentABook-API",
+						"1.0.0",
+						"token"
+					],
+					"query": [
+						{
+							"key": "client_id",
+							"value": "adc"
+						},
+						{
+							"key": "client_secret",
+							"value": "acd"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "request book",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://virtserver.swaggerhub.com/sepulsa/RentABook-API/1.0.0/book?p=30&rp=2&title=cool",
+					"protocol": "https",
+					"host": [
+						"virtserver",
+						"swaggerhub",
+						"com"
+					],
+					"path": [
+						"sepulsa",
+						"RentABook-API",
+						"1.0.0",
+						"book"
+					],
+					"query": [
+						{
+							"key": "p",
+							"value": "30"
+						},
+						{
+							"key": "rp",
+							"value": "2"
+						},
+						{
+							"key": "title",
+							"value": "cool"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "PUT Reqest",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"url": {
+					"raw": "https://virtserver.swaggerhub.com/sepulsa/RentABook-API/1.0.0/book/158751234875",
+					"protocol": "https",
+					"host": [
+						"virtserver",
+						"swaggerhub",
+						"com"
+					],
+					"path": [
+						"sepulsa",
+						"RentABook-API",
+						"1.0.0",
+						"book",
+						"158751234875"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "DELETE BOOK",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "https://virtserver.swaggerhub.com/sepulsa/RentABook-API/1.0.0/book/134657",
+					"protocol": "https",
+					"host": [
+						"virtserver",
+						"swaggerhub",
+						"com"
+					],
+					"path": [
+						"sepulsa",
+						"RentABook-API",
+						"1.0.0",
+						"book",
+						"134657"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "POST User",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "https://virtserver.swaggerhub.com/sepulsa/RentABook-API/1.0.0/user",
+					"protocol": "https",
+					"host": [
+						"virtserver",
+						"swaggerhub",
+						"com"
+					],
+					"path": [
+						"sepulsa",
+						"RentABook-API",
+						"1.0.0",
+						"user"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

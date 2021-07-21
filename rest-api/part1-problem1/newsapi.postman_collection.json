@@ -1,0 +1,162 @@
+{
+	"info": {
+		"_postman_id": "6930cd54-995b-43ad-b428-35b1197313ca",
+		"name": "newsapi",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Search Headline News di US",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://newsapi.org/v2/top-headlines?country=us&apiKey=378c81d018e94a6b88d3839937b6b756",
+					"protocol": "https",
+					"host": [
+						"newsapi",
+						"org"
+					],
+					"path": [
+						"v2",
+						"top-headlines"
+					],
+					"query": [
+						{
+							"key": "country",
+							"value": "us"
+						},
+						{
+							"key": "apiKey",
+							"value": "378c81d018e94a6b88d3839937b6b756"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Search News About Coding",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://newsapi.org/v2/everything?q=coding&apiKey=378c81d018e94a6b88d3839937b6b756",
+					"protocol": "https",
+					"host": [
+						"newsapi",
+						"org"
+					],
+					"path": [
+						"v2",
+						"everything"
+					],
+					"query": [
+						{
+							"key": "q",
+							"value": "coding"
+						},
+						{
+							"key": "apiKey",
+							"value": "378c81d018e94a6b88d3839937b6b756"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Request News Category Technology",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://newsapi.org/v2/top-headlines/sources?category=technology&apiKey=378c81d018e94a6b88d3839937b6b756",
+					"protocol": "https",
+					"host": [
+						"newsapi",
+						"org"
+					],
+					"path": [
+						"v2",
+						"top-headlines",
+						"sources"
+					],
+					"query": [
+						{
+							"key": "category",
+							"value": "technology"
+						},
+						{
+							"key": "apiKey",
+							"value": "378c81d018e94a6b88d3839937b6b756"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Req News in Rusia",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://newsapi.org/v2/top-headlines/sources?country=ru&apiKey=378c81d018e94a6b88d3839937b6b756",
+					"protocol": "https",
+					"host": [
+						"newsapi",
+						"org"
+					],
+					"path": [
+						"v2",
+						"top-headlines",
+						"sources"
+					],
+					"query": [
+						{
+							"key": "country",
+							"value": "ru"
+						},
+						{
+							"key": "apiKey",
+							"value": "378c81d018e94a6b88d3839937b6b756"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Request News in French",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://newsapi.org/v2/top-headlines/sources?language=fr&apiKey=378c81d018e94a6b88d3839937b6b756",
+					"protocol": "https",
+					"host": [
+						"newsapi",
+						"org"
+					],
+					"path": [
+						"v2",
+						"top-headlines",
+						"sources"
+					],
+					"query": [
+						{
+							"key": "language",
+							"value": "fr"
+						},
+						{
+							"key": "apiKey",
+							"value": "378c81d018e94a6b88d3839937b6b756"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
